@@ -1,2 +1,0 @@
-OG DOCS
-Test 2

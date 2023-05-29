@@ -1,0 +1,12 @@
+input: .
+output: .retype
+url: docs.og.art
+branding:
+  title: OG Docs
+  label: v1
+links:
+  - text: Home
+    link: /README.md
+    icon: home
+footer:
+  copyright: "&copy; Copyright . All rights reserved."
