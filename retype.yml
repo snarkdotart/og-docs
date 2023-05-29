@@ -2,12 +2,10 @@ input: .
 output: .retype
 url: docs.og.art
 branding:
-  title: OG Docs
+  title: OG Studio
   label: v1
 links:
   - text: Home
     link: /README.md
-  - text: SRP
-    link: /srp/index.md
 footer:
   copyright: "&copy; Copyright . All rights reserved."
