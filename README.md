@@ -1,2 +1,1 @@
-# og-docs
-OG Studio documentation
+# OG Studio documentation
