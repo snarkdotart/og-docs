@@ -3,7 +3,7 @@ icon: rocket
 order: 20
 ---
 
-## Dynamic NFTs
+# Dynamic NFTs
 
 Dynamic NFTs are a type of non-fungible token (NFT) that can change over time due to external conditions. Unlike static NFTs, which remain the same once minted to the blockchain, dynamic NFTs can alter their metadata and potentially the appearance of the token itself based on certain events or achievements. They are sometimes referred to as "living NFTs".
 
@@ -17,6 +17,6 @@ Changes to a dynamic NFT can be triggered by a smart contract, with an oracle ty
 
 Examples of dynamic NFTs include artwork by Beeple that changes its appearance based on real-world events, the digital cats in the NFT-based game Cryptokitties, and the digital collectibles of NBA star LaMelo Ball that incorporate on-chain sports data and change based on the outcome of games.
 
-### Additional reading
+## Additional reading
 
 * https://www.coindesk.com/learn/what-are-dynamic-nfts-understanding-the-evolving-nft/
