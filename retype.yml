@@ -8,6 +8,8 @@ branding:
   title: OG Studio
   label: v1
 
+favicon: favicon.ico
+
 links:
   - text: Home
     link: /README.md
