@@ -1,8 +1,7 @@
 input: .
-
 output: .retype
-
 url: docs.og.art
+favicon: static/favicon.ico
 
 branding:
   title: OG Studio
