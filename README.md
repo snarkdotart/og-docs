@@ -1,6 +1,7 @@
 ---
 label: "What is OG Studio?"
 icon: home
+order: 100
 ---
 
 # About OG Studio
