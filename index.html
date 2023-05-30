@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.738684466329">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.0.738761302450">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 2.4.0">
+    <meta name="generator" content="Retype 3.0.0">
 
     <!-- Primary Meta Tags -->
     <title>OG Studio documentation</title>
     <meta name="title" content="OG Studio documentation">
+    <meta name="description" content="Welcome to the Developer's Guide to OG Studio" />
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.og.art/" />
@@ -19,19 +20,21 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.og.art/">
     <meta property="og:title" content="OG Studio documentation">
+    <meta property="og:description" content="Welcome to the Developer's Guide to OG Studio">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://docs.og.art/">
     <meta property="twitter:title" content="OG Studio documentation">
+    <meta property="twitter:description" content="Welcome to the Developer's Guide to OG Studio">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="resources/css/retype.css?v=2.4.0.738684466329" rel="stylesheet" />
+    <link href="resources/css/retype.css?v=3.0.0.738761302450" rel="stylesheet" />
 
-    <script type="text/javascript" src="resources/js/config.js?v=2.4.0.738684466329" data-turbo-eval="false" defer></script>
-    <script type="text/javascript" src="resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="resources/js/lunr.js?v=2.4.0.738684466329" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="resources/js/config.js?v=3.0.0.738761302450" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="resources/js/retype.js?v=3.0.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="resources/js/lunr.js?v=3.0.0.738761302450" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -156,8 +159,8 @@
             <div class="grow min-w-0 dark:bg-dark-850">
                 <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
                 <div class="flex">
-                    <div class="grow min-w-0 px-6 md:px-16">
-                        <main class="relative pt-6 pb-16">
+                    <div class="min-w-0 p-4 grow md:px-16">
+                        <main class="relative pb-12 lg:pt-2">
                             <div class="docs-markdown" id="docs-content">
                                 <!-- Rendered if sidebar right is enabled -->
                                 <div id="docs-sidebar-right-toggle"></div>
@@ -169,6 +172,26 @@
         <span>OG Studio documentation</span>
     </h1>
 </doc-anchor-target>
+<p>Welcome to the Developer&#x27;s Guide to OG Studio</p>
+<p>OG Studio provides a comprehensive set of tools designed to foster the creation of dynamic, generative NFT collections. As a developer, you&#x27;ll find an environment where you can independently experiment with cutting-edge technology, and create NFTs that have the ability to grow, breed, fuse, and react to blockchain or real-life events — even after they&#x27;ve been initially purchased. Here, we offer an early access to these trailblazing tools. This document provides a detailed description of each tool in this powerful toolkit.</p>
+<doc-anchor-target id="components-of-the-og-studio-system">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#components-of-the-og-studio-system">#</doc-anchor-trigger>
+        <span>Components of the OG Studio System</span>
+    </h2>
+</doc-anchor-target>
+<ol>
+<li><p>Blockchain Smart Contract: This is where the magic begins. The blockchain smart contract is responsible for creating events that dictate the behaviour and characteristics of the NFTs. It&#x27;s the foundational layer of the system, establishing the rules and parameters for your dynamic NFT collection.</p>
+</li>
+<li><p>Event Listener: Acting as an intermediary, the event listener accepts events emanating from the blockchain contract or from an external API interface. This tool is crucial as it acts as a bridge between the smart contract and the other components of the system.</p>
+</li>
+<li><p>Trait Generator: This component is responsible for determining what the NFT will be like. Based on the events accepted by the event listener, the trait generator assigns characteristics and properties to the NFT, creating a unique digital asset each time.</p>
+</li>
+<li><p>Artwork Generator: Connected to the generative scene and render farms, the visuals generator is where your NFTs come to life. It takes the traits assigned by the trait generator and translates them into visual representations, creating an NFT that is not only unique but also aesthetically appealing.</p>
+</li>
+<li><p>Metadata Updater: The final piece of the puzzle, the metadata updater ensures that the metadata of the artwork is updated on the blockchain. It also ensures that this updated information is reflected in the wallets of the owners as well as on various platforms like OpenSea. This continuous updating is what allows your NFTs to be truly dynamic, reflecting changes in real-time.</p>
+</li>
+</ol>
 
                                 
                                 <!-- Required only on API pages -->
