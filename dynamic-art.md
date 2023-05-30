@@ -1,6 +1,7 @@
 ---
 icon: paintbrush
 order: 10
+label: Dynamic Art
 ---
 
 # What is Dynamic Art?
