@@ -1,3 +1,8 @@
+---
+icon: file
+---
+
+
 # Retrieve task status
 
 To retrieve current task status:

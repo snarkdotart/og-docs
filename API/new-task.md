@@ -1,3 +1,8 @@
+---
+icon: file
+---
+
+
 # Submit new render task
 
 - Make sure the required collection is created in the SRP database.
