@@ -30,25 +30,25 @@ METHOD: `GET`
       "name": "demo"
     },
     "uid": "<COLLECTION_UID>",
-    "options": {...}
+    "options": {"key": "value"}
   },
   "creation_date": "2023-05-12T18:27:38.662062Z",
   "status": "done",
   "enabled": true,
-  "input_data": {...},
+  "input_data": {"key": "value"},
   "options": {
     "priority": 50,
-    "callback_urls": ["https://domain.com/api/v1/render/callback"]
+    "callback_urls": ["https://example.com/api/render/callback"]
   },
+  "output_files": [
+    "render/collection_name/<TASK_UID>/filename1.ext",
+    "render/collection_name/<TASK_UID>/filename2.ext"
+  ],
   "created_by": {
     "id": 1,
     "name": "demo"
   },
-  "tags": [
-    "demo"
-  ],
-  "jobs": [
-    1234
-  ]
+  "tags": ["demo"],
+  "jobs": [1234]
 }
 ```
