@@ -23,7 +23,7 @@ JSON DATA:
 ```json
 {
 "collection_id": "<UUID>",
-"input_data": {...}
+"input_data": {"key": "value"}
 }
 ```
 
@@ -32,16 +32,16 @@ JSON DATA:
 ```python
 import requests
 data = {
-        "collection_id": "******",
+        "collection_id": "<COLLECTION_UID>",
         "input_data": {
             "bg": "RareFlare3.png",
             "pants": "stepper",
             "pants_color": "#ffffff",
-            "shoe": "4",
             "shoe_color": "#ff0000",
+            "shoe": "4",
             "platform": "epic"
-    }
 }
-headers = {'Authorization': 'Bearer *****'}
+}
+headers = {'Authorization': 'Bearer <API_KEY>'}
 requests.post('https://srp.snark.art/api/v1/tasks', json=data, headers=headers)
 ```
