@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.1.738860901613">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.1.738861595777">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.1">
@@ -31,12 +31,12 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/favicon.ico" rel="icon" />
-    <link href="../../resources/css/retype.css?v=3.0.1.738860901613" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=3.0.1.738861595777" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.1.738860901613" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.1.738861595777" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../resources/js/retype.js?v=3.0.1" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.1.738860901613" data-turbo-eval="false" defer></script>
-    <script id="prism-js" type="text/javascript" src="../../resources/js/prism.js?v=3.0.1.738860901613" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.1.738861595777" data-turbo-eval="false" defer></script>
+    <script id="prism-js" type="text/javascript" src="../../resources/js/prism.js?v=3.0.1.738861595777" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -217,49 +217,46 @@
 <p>You can define web hook URL using request data in <code v-pre>render_options</code> field when <a href="../task-create/">creating a task</a>.</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-json"><code v-pre class="language-json">data = {
-    &quot;collection_id&quot;: &quot;******&quot;,
-    &quot;input_data&quot;: {...},
-    &quot;render_options&quot;: {
-        &quot;callback_urls&quot;: [&quot;http://domain.com/api/callback/&quot;]
-    }
+  &quot;collection_id&quot;: &quot;******&quot;,
+  &quot;input_data&quot;: {},
+  &quot;render_options&quot;: {
+    &quot;callback_urls&quot;: [&quot;http://domain.com/api/callback/&quot;]
+  }
 }</code></pre>
 </doc-codeblock></div>
 <p>You can define multiple URLs:</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-json"><code v-pre class="language-json">{
-...
-&quot;render_options&quot;: {
-        &quot;callback_urls&quot;: [
-            &quot;http://domain1.com/api/callback/&quot;,
-            &quot;http://domain2.com/api/callback/&quot;
-        ]
+  &quot;render_options&quot;: {
+    &quot;callback_urls&quot;: [
+      &quot;http://domain1.com/api/callback/&quot;,
+      &quot;http://domain2.com/api/callback/&quot;
+    ]
   }
-  ...
 }</code></pre>
 </doc-codeblock></div>
 <p>You can define a dict instead a string to define more details:</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-json"><code v-pre class="language-json">{
-    ...
-    &quot;render_options&quot;: {
-        &quot;callback_urls&quot;: [
-            {
-                &quot;url&quot;:&quot;http://domain.com/api/callback/&quot;,
-                &quot;method&quot;: &quot;post&quot;,
-                &quot;headers&quot;: {&quot;custom&quot;: &quot;header&quot;},
-                &quot;data&quot;: {&quot;extra&quot;: &quot;data&quot;}
-            }
-        ]
-    }			
+  &quot;render_options&quot;: {
+    &quot;callback_urls&quot;: [
+      {
+        &quot;url&quot;: &quot;http://domain.com/api/callback/&quot;,
+        &quot;method&quot;: &quot;post&quot;,
+        &quot;headers&quot;: { &quot;custom&quot;: &quot;header&quot; },
+        &quot;data&quot;: { &quot;extra&quot;: &quot;data&quot; }
+      }
+    ]
+  }
 }</code></pre>
 </doc-codeblock></div>
 <p>Web hook data example:</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-json"><code v-pre class="language-json">{
-    &quot;output_files&quot;: [&quot;render/&lt;COLLECTION_NAME&gt;/&lt;TASK_UUID&gt;/render.png&quot;],
-    &quot;status&quot;: &quot;done&quot;,
-    &quot;task_id&quot;: &quot;&lt;TASK_UUID&gt;&quot;,
-    &quot;timestamp&quot;: &quot;2023-05-22T11:40:31.263Z&quot;
+  &quot;output_files&quot;: [&quot;render/&lt;COLLECTION_NAME&gt;/&lt;TASK_UUID&gt;/render.png&quot;],
+  &quot;status&quot;: &quot;done&quot;,
+  &quot;task_id&quot;: &quot;&lt;TASK_UUID&gt;&quot;,
+  &quot;timestamp&quot;: &quot;2023-05-22T11:40:31.263Z&quot;
 }</code></pre>
 </doc-codeblock></div>
 <p>The <code v-pre>output_files</code> field only exists if the status is <code v-pre>done</code>. Output file path is relative path on Google cloud storage. Full path is: <code v-pre>&lt;BUCKET_NAME&gt;/&lt;RELATIVE_PATH&gt;</code></p>
