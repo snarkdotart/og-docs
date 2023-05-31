@@ -22,8 +22,8 @@ JSON DATA:
 
 ```json
 {
-"collection_id": "<UUID>",
-"input_data": {...}
+  "collection_id": "<UUID>",
+  "input_data": {}
 }
 ```
 
