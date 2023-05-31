@@ -8,11 +8,11 @@ icon: file
 You can define web hook URL using request data in `render_options` field
 
 ```json
-data = {
+{
     "collection_id": "******",
-    "input_data": {...},
+    "input_data": {"key": "value"},
     "render_options": {
-        "callback_urls": ["http://domain.com/api/callback/"]
+        "callback_urls": ["http://example.com/api/callback/"]
     }
 }
 ```
@@ -21,14 +21,12 @@ You can define multiple URLs:
 
 ```json
 {
-...
 "render_options": {
         "callback_urls": [
-            "http://domain1.com/api/callback/",
-            "http://domain2.com/api/callback/"
+            "http://example1.com/api/callback/",
+            "http://example2.com/api/callback/"
         ]
   }
-  ...
 }
 ```
 
@@ -36,11 +34,10 @@ You can define a dict instead a string to define more details:
 
 ```json
 {
-    ...
     "render_options": {
         "callback_urls": [
             {
-                "url":"http://domain.com/api/callback/",
+                "url":"http://example.com/api/callback/",
                 "method": "post",
                 "headers": {"custom": "header"},
                 "data": {"extra": "data"}
