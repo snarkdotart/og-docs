@@ -3,7 +3,7 @@ icon: file
 ---
 
 
-# Submit new render task
+# Create new render task
 
 - Make sure the required collection is created in the SRP database.
 - Get the UUID of collection and save it.
