@@ -26,7 +26,7 @@ RESPONSE:
 }
 ```
 
-3. Now you can upload you archive using `upload_url` and `PUT` method.
+3. Now you can upload your archive using `upload_url` and `PUT` method.
 Be sure to use the specified content type!
 
 4. Notify the server when the upload is complete
