@@ -49,14 +49,21 @@ It returns the new state of a token and takes the current state as an input obje
 
 input - an object that represents the current state of a token
   - token_id - ID of the token
+  - generation - integer value, increases after every render request. 0 - just minted token
   - seed - a hex value, unique to every token e.g. "0x3f13cb3..."
   - traits - a key-value object of publicly available values
   - properties - a key-value object of privately available values
 */
 function onRun(input) {
+    let factor = 3;
+    // just minted
+    if (input.generation == 0) {
+        factor = 2;
+    }
+
     const seed = parseInt(input.seed, 16);
     const colorRandom = seededRandom(seed);
-    const shapeRandom = seededRandom(seed * 2);
+    const shapeRandom = seededRandom(seed * factor);
 
     const color = getValue(colorRandom, colorTraits);
     const shape = getValue(shapeRandom, shapeProperties);
@@ -67,7 +74,9 @@ function onRun(input) {
         },
         properties: {
             shape: shape,
+            seed: seed,
         },
     };
-};
+}
+export default onRun;
 ```
