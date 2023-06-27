@@ -1,5 +1,5 @@
 ---
-icon: computer
+icon: note
 order: 20
 ---
 
