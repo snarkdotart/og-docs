@@ -1,6 +1,6 @@
 ---
 icon: heart
-order: 25
+order: 70
 ---
 
 # Artwork Generator
