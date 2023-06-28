@@ -16,8 +16,8 @@ OG Studio provides a comprehensive set of tools designed to foster the creation 
 
 2. Event Listener: Acting as an intermediary, the event listener accepts events emanating from the blockchain contract or from an external API interface. This tool is crucial as it acts as a bridge between the smart contract and the other components of the system.
 
-3. Trait Generator: This component is responsible for determining what the NFT will be like. Based on the events accepted by the event listener, the trait generator assigns characteristics and properties to the NFT, creating a unique digital asset each time.
+3. [!ref Trait Generator](/trait-generator.md): This component is responsible for determining what the NFT will be like. Based on the events accepted by the event listener, the trait generator assigns characteristics and properties to the NFT, creating a unique digital asset each time.
 
-4. Artwork Generator: Connected to the generative scene and render farms, the visuals generator is where your NFTs come to life. It takes the traits assigned by the trait generator and translates them into visual representations, creating an NFT that is not only unique but also aesthetically appealing.
+4. [!ref Artwork Generator](/artwork-generator.md): Connected to the generative scene and render farms, the visuals generator is where your NFTs come to life. It takes the traits assigned by the trait generator and translates them into visual representations, creating an NFT that is not only unique but also aesthetically appealing.
 
 5. Metadata Updater: The final piece of the puzzle, the metadata updater ensures that the metadata of the artwork is updated on the blockchain. It also ensures that this updated information is reflected in the wallets of the owners as well as on various platforms like OpenSea. This continuous updating is what allows your NFTs to be truly dynamic, reflecting changes in real-time.
