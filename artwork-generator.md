@@ -17,5 +17,5 @@ OG platform supports following Artwork Generator types:
 
 You can find an example of an JavaScript based Artwork Generator in this boilerplate repository:
 
-[!ref icon="mark-github" Trait Generator boilerplate](https://github.com/snarkdotart/og-artwork-scene-boilerplate)
+[!ref Trait Generator boilerplate](https://github.com/snarkdotart/og-artwork-scene-boilerplate)
 
