@@ -1,6 +1,6 @@
 ---
 icon: paintbrush
-order: 10
+order: 90
 label: Dynamic Art
 ---
 

@@ -1,6 +1,6 @@
 ---
 icon: rocket
-order: 20
+order: 100
 ---
 
 # Dynamic NFTs

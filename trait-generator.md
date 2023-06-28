@@ -1,6 +1,6 @@
 ---
 icon: note
-order: 30
+order: 80
 ---
 
 # Trait Generator
