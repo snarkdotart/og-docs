@@ -6,7 +6,7 @@ order: 100
 
 # About OG Studio
 
-OG Studio provides a comprehensive set of tools designed to foster the creation of dynamic, generative NFT collections. As a developer, you'll find an environment where you can independently experiment with cutting-edge technology, and create NFTs that have the ability to grow, breed, fuse, and react to blockchain or real-life events — even after they've been initially purchased. Here, we offer an early access to these trailblazing tools. This document provides a detailed description of each tool in this powerful toolkit.
+OG Studio provides a comprehensive set of tools designed to foster the creation of ✨dynamic, generative NFT collections✨. As a developer, you'll find an environment where you can independently experiment with cutting-edge technology, and create NFTs that have the ability to grow, breed, fuse, and react to blockchain or real-life events — even after they've been initially purchased. Here, we offer an early access to these trailblazing tools. This document provides a detailed description of each tool in this powerful toolkit.
 
 ![System components](/static/i/system-components.png)
 
