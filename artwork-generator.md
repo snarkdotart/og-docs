@@ -1,11 +1,11 @@
 ---
 icon: heart
-order: 40
+order: 25
 ---
 
 # Artwork Generator
 
-Artwork Generator takes input data from trait generator. Artwork generator renders and outputs various media files: static images, videos, 3D assets, audio files.
+Artwork Generator takes input data from Trait Generator. Artwork generator renders and outputs various media files: static images, videos, 3D assets, audio files.
 
 OG platform supports following Artwork Generator types:
 
