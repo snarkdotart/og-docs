@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.741261321837">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.741261894924">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -33,11 +33,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="static/favicon.ico" rel="icon" />
-    <link href="resources/css/retype.css?v=3.0.3.741261321837" rel="stylesheet" />
+    <link href="resources/css/retype.css?v=3.0.3.741261894924" rel="stylesheet" />
 
-    <script type="text/javascript" src="resources/js/config.js?v=3.0.3.741261321837" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="resources/js/config.js?v=3.0.3.741261894924" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="resources/js/lunr.js?v=3.0.3.741261321837" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="resources/js/lunr.js?v=3.0.3.741261894924" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -232,9 +232,35 @@
 </li>
 <li><p>Event Listener: Acting as an intermediary, the event listener accepts events emanating from the blockchain contract or from an external API interface. This tool is crucial as it acts as a bridge between the smart contract and the other components of the system.</p>
 </li>
-<li><p>Trait Generator: This component is responsible for determining what the NFT will be like. Based on the events accepted by the event listener, the trait generator assigns characteristics and properties to the NFT, creating a unique digital asset each time.</p>
+<li><p>
+<div class="mb-6 px-5 py-4 flex justify-between relative border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded transition-colors duration-150">
+    <div class="flex items-center text-blue-500 dark:text-blue-400">
+        <span class="inline-block mb-px">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"/><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z"/></svg>
+        </span>
+        <span class="inline-block font-medium ml-2">Trait Generator</span>
+    </div>
+    <div class="flex items-center text-xs text-gray-400 dark:text-dark-400">
+        <span>trait-generator/</span>
+    </div>
+    <a href="trait-generator/" class="absolute block inset-0"></a>
+</div>
+: This component is responsible for determining what the NFT will be like. Based on the events accepted by the event listener, the trait generator assigns characteristics and properties to the NFT, creating a unique digital asset each time.</p>
 </li>
-<li><p>Artwork Generator: Connected to the generative scene and render farms, the visuals generator is where your NFTs come to life. It takes the traits assigned by the trait generator and translates them into visual representations, creating an NFT that is not only unique but also aesthetically appealing.</p>
+<li><p>
+<div class="mb-6 px-5 py-4 flex justify-between relative border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded transition-colors duration-150">
+    <div class="flex items-center text-blue-500 dark:text-blue-400">
+        <span class="inline-block mb-px">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"/><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z"/></svg>
+        </span>
+        <span class="inline-block font-medium ml-2">Artwork Generator</span>
+    </div>
+    <div class="flex items-center text-xs text-gray-400 dark:text-dark-400">
+        <span>artwork-generator/</span>
+    </div>
+    <a href="artwork-generator/" class="absolute block inset-0"></a>
+</div>
+: Connected to the generative scene and render farms, the visuals generator is where your NFTs come to life. It takes the traits assigned by the trait generator and translates them into visual representations, creating an NFT that is not only unique but also aesthetically appealing.</p>
 </li>
 <li><p>Metadata Updater: The final piece of the puzzle, the metadata updater ensures that the metadata of the artwork is updated on the blockchain. It also ensures that this updated information is reflected in the wallets of the owners as well as on various platforms like OpenSea. This continuous updating is what allows your NFTs to be truly dynamic, reflecting changes in real-time.</p>
 </li>
@@ -251,10 +277,10 @@
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l rounded-r-lg transition-colors duration-150 relative hover:z-5" href="traits-generator/">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l rounded-r-lg transition-colors duration-150 relative hover:z-5" href="artwork-generator/">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">Traits Generator</span>
+                                                <span class="block mt-1">Artwork Generator</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>
