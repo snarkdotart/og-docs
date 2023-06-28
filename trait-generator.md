@@ -16,5 +16,5 @@ Trait generator also decides, if a new generation should be created.
 
 You can learn how Trait Generator works in this boilerplate repository:
 
-[!ref Trait Generator boilerplate](https://github.com/snarkdotart/og-artwork-scene-boilerplate)
+[!ref icon="mark-github" Trait Generator boilerplate](https://github.com/snarkdotart/og-artwork-scene-boilerplate)
 

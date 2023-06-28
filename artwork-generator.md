@@ -9,7 +9,7 @@ Artwork Generator takes input data from trait generator. Artwork generator rende
 
 OG platform supports following Artwork Generator types:
 
-— JavaScript based
+- JavaScript based
 - Blender scenes
 - Houdini scenes
 - Custom docker containers
@@ -17,5 +17,5 @@ OG platform supports following Artwork Generator types:
 
 You can find an example of an JavaScript based Artwork Generator in this boilerplate repository:
 
-[!ref Trait Generator boilerplate](https://github.com/snarkdotart/og-artwork-scene-boilerplate)
+[!ref icon="mark-github" Trait Generator boilerplate](https://github.com/snarkdotart/og-artwork-scene-boilerplate)
 
