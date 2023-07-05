@@ -1,5 +1,5 @@
 ---
-icon: note
+icon: tag
 order: 80
 ---
 
