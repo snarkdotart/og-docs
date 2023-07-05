@@ -14,7 +14,7 @@ OG Studio provides a comprehensive set of tools designed to foster the creation 
 
 1. Blockchain Smart Contract: This is where the magic begins. The blockchain smart contract is responsible for creating events that dictate the behaviour and characteristics of the NFTs. It's the foundational layer of the system, establishing the rules and parameters for your dynamic NFT collection.
 
-2. Event Listener: Acting as an intermediary, the event listener accepts events emanating from the blockchain contract or from an external API interface. This tool is crucial as it acts as a bridge between the smart contract and the other components of the system.
+2. [Event Listener](/event-listener.md): Acting as an intermediary, the event listener accepts events emanating from the blockchain contract or from an external API interface. This tool is crucial as it acts as a bridge between the smart contract and the other components of the system.
 
 3. [Trait Generator](/trait-generator.md): This component is responsible for determining what the NFT will be like. Based on the events accepted by the event listener, the trait generator assigns characteristics and properties to the NFT, creating a unique digital asset each time.
 
